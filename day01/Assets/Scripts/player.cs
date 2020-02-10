@@ -39,7 +39,7 @@ public class player : MonoBehaviour
         {
             moveDir = Vector3.back;
         }
-        if (Input.GetKey(KeyCode.Space) && isGrounded())
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
         {
             canJump = true;
         }
