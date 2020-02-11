@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - red
+  - blue
+  - yellow
   layers:
   - Default
   - TransparentFX
@@ -13,12 +16,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - blue
+  - yellow
+  - red
+  - player_blue
+  - player_yellow
+  - player_red
   - 
   - 
   - 

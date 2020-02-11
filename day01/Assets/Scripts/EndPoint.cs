@@ -4,19 +4,31 @@ using UnityEngine;
 
 public class EndPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
+    public bool triggered = false;
+    [SerializeField] GameObject target;
+   
+    private void OnTriggerEnter(Collider other)
+    { 
+        //if (!target)
+        //    return;
+
+        //Debug.Log("Target: " + target+ "   Other:" + other);
         
+
+        //Debug.Log(other.gameObject.tag + tag + target.tag);
+        //Debug.Log(other.gameObject.CompareTag(target.tag));
+        //if (other.gameObject.CompareTag(target.tag))
+
+
+        if (target.CompareTag(other.tag))
+            triggered = true;
+        Debug.Log("Good");
+        //}
+      
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerExit(Collider other)
     {
-        
-    }
-    private void OnTriggerEnter(Collider other)
-    {
-        print(other + "Is in me");
+        triggered = false;
     }
 }
