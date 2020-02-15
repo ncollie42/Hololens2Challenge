@@ -9,22 +9,8 @@ public class EndPoint : MonoBehaviour
    
     private void OnTriggerEnter(Collider other)
     { 
-        //if (!target)
-        //    return;
-
-        //Debug.Log("Target: " + target+ "   Other:" + other);
-        
-
-        //Debug.Log(other.gameObject.tag + tag + target.tag);
-        //Debug.Log(other.gameObject.CompareTag(target.tag));
-        //if (other.gameObject.CompareTag(target.tag))
-
-
         if (target.CompareTag(other.tag))
-            triggered = true;
-        Debug.Log("Good");
-        //}
-      
+            triggered = true;      
     }
 
     private void OnTriggerExit(Collider other)

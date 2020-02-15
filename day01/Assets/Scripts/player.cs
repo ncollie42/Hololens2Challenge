@@ -63,6 +63,7 @@ public class player : MonoBehaviour
     {
         GetComponent<Rigidbody>().AddForce(moveDir * moveMult);
         limitVelocity();
+        
     }
 
     void jump()
