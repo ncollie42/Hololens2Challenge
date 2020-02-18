@@ -7142,7 +7142,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1570448233
 Transform:
   m_ObjectHideFlags: 0
@@ -10153,10 +10153,10 @@ Transform:
   m_Children:
   - {fileID: 1159690606}
   - {fileID: 1951859443}
-  - {fileID: 158436655}
+  - {fileID: 1452496589}
   - {fileID: 1911267132}
   - {fileID: 122495064}
-  - {fileID: 1452496589}
+  - {fileID: 158436655}
   m_Father: {fileID: 2000972815}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
